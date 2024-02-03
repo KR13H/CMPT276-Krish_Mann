@@ -1,5 +1,4 @@
-
-FROM 3.9.6-eclipse-temurin-11 AS build
+FROM mcr.microsoft.com/openjdk/jdk:21-ubuntu AS build
 COPY . .   
 RUN mvn clean package -DskipTests
 
