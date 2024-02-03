@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatibe" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Quiz</title>
+    <link rel="stylesheet" href="/css/quizApp.css">
+    <script src="/js/quizLogic.js" defer></script>
+</head>
+<!-- Body -->
+<body>
+    <header>
+        <h1> Interactive Christmas Quiz</h1> 
+        <!-- header shown on top of the screen -->
+    </header>
+
+    <!-- reference- https://hackr.io/blog/javascript-projects -->
+    <!-- used this website -->
+    <main>
+        <section id="quiz_section">
+            <!-- QUESTION BANK -->
+            <article id="ques_bank">
+                <h2 id="ques"> Enjoy your stay here </h2> 
+                <!-- problem, text not shoing in console or in html -->
+                <ul id="answer">
+                </ul>
+            </article>
+
+            <!-- NAVIGATION BAR -->
+            <nav>
+                <button id="prev-btn" disabled>Previous ques</button>
+                <button id="next-btn">Next ques</button>
+                <button id="submit-btn">Submit jingles</button>
+            </nav>
+        </section>
+
+        
+        <section id="correct" class="hidden">
+            <h2>Hohoho, here are your results </h2>
+            <p id="score"></p>
+            <div id="correct-answers"> 
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        COPYRIGHT KRISH_MANN 2024
+    </footer>
+
+</body>
+</html>

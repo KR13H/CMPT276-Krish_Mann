@@ -1,0 +1,103 @@
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: black;
+}
+
+header {
+    background: maroon;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+    font-size: 50px;
+}
+
+h1 {
+    margin: 0;
+    color: yellowgreen;
+    text-align: center;
+    font-size: larger;
+}
+
+main {
+    padding: 30px;
+    max-width: 700px;
+    margin: auto;
+}
+
+/* the box in which the questions and the options will come */
+#ques_bank {
+    background: yellowgreen;
+    padding: 20px;
+    margin-bottom: 10px;
+    /* border */
+    border-radius: 8px;
+    border: 2px solid white; 
+}
+
+/* answer options */
+#answer {
+    list-style-type: none;
+    padding: 0;
+}
+
+/* answer visual boxes  */
+#answer li {
+    padding: 20px;
+    background: white;
+    margin-top: 8px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+nav {
+    text-align: center;
+    padding: 10px;
+}
+
+button {
+    padding: 13px 25px;
+    margin: 5px;
+    background: darkcyan; /* Changed button background color to blue */
+    color: white;
+    border: 3px solid black;
+    cursor: pointer; /* Added cursor pointer for better UX */
+}
+
+button:disabled {
+    background: maroon;
+    cursor: not-allowed; /* Added cursor not-allowed for disabled button */
+}
+
+/* correct counter */
+#correct {
+    background: #fff;
+    padding: 25px;
+    border-radius: 10px;
+}
+
+/* to hide the counter from the player */
+.hidden {
+    display: none;
+}
+
+footer {
+    text-align: right;
+    padding: 13px;
+    padding-bottom: 50px;
+    color: white;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    margin: 10px; /* Added margin for better spacing */
+}
+
+/* added to make the background color change when the answer is wrong or right */
+#answer li.correct {
+    background-color: #8BC34A; /* Green color for correct answers */
+}
+
+#answer li.wrong {
+    background-color: #FF5252; /* Red color for wrong answers */
+}

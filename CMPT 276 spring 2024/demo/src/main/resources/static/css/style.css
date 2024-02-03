@@ -1,0 +1,30 @@
+header {
+    border: 1px solid cyan;
+}
+
+h1 {
+    border : 13px dotted red;
+}
+
+a {
+    background-color: yellow;
+}
+
+.sec1 {
+    color : #441155
+}
+.sec2{
+    color: #446655
+}
+section {
+    padding: 10px;
+    border : 1px dashed blueviolet;
+}
+
+main {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#mainpart {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
